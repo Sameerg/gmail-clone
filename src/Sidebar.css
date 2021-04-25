@@ -1,0 +1,19 @@
+.compose_button{
+    margin: 15px 0px 15px 10px !important;
+    text-transform: capitalize !important;
+    color: gray;
+    border-radius: 30px !important;
+    padding: 15px !important;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%); 
+    font-size: 18px;
+    height: 48px;
+    width: 144px;
+}
+
+button > span.MuiButton-label > img{
+    margin-left: -15px;
+}
+
+.sidebar{
+    min-width: 256px;
+}

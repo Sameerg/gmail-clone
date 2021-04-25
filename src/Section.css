@@ -1,0 +1,25 @@
+.section{
+    display: flex;
+    align-items: center;
+    height: 45px;
+    min-width: 200px;
+    border-bottom-width: 2px;
+    flex:1;
+    cursor: pointer;
+    color: gray;
+}
+
+div.section:hover{
+    background-color: whitesmoke;
+    color: black;
+    
+}
+
+.section svg{
+    margin-left: 10px;
+}
+
+.selected{
+    border-width: 3px !important;
+    
+}

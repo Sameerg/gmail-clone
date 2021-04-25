@@ -1,0 +1,40 @@
+.emailrow{
+display: flex;
+border-bottom: 1px solid whitesmoke;
+cursor: pointer;
+align-items: center;
+font-size: 14px;
+height: 30px;
+}
+
+.emailrow:hover{
+    background-color: whitesmoke;
+}
+
+
+.emailrow_option > button.MuiButtonBase-root.MuiIconButton-root{
+padding: 2px;
+}
+
+.emailrow_title{
+flex:0.15;
+}
+
+.emailrow_subject{
+    flex:0.9;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: 30px;
+}
+
+
+.emailrow_description{
+color: #5F6368;
+}
+.emailrow_time{
+    /* flex: 0.1; */
+    font-size: 12px;
+    margin-left: 10px;
+}
